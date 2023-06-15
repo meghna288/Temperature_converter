@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.Temp{
+    width: 100%;
+    height: 100vh;
+    background-image: 
+    linear-gradient(rgb(140, 203, 219), rgb(20, 87, 141));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Temp h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+  
+.row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background:black;
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+  
+.column {
+    flex-basis: 32%;
+    text-align: center;
+}
+  
+.column label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+}
+  
+.column input {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
